@@ -1,5 +1,5 @@
 # Matlab-Start-Parallel-Pool
- Start the parallel pool and set the pool size
+ Start the parallel pool and set the pool size in MATLAB
 
 ## File startParallelAndSetCores.m
 <pre><code> function startParallelAndSetCores(nCPUCores)
