@@ -1,5 +1,10 @@
 # Matlab-Start-Parallel-Pool
- Start the parallel pool and set the pool size in MATLAB
+ Start the parallel pool and set the pool size in MATLAB. 
+ The script operates in 2 steps:
+ 1. Check the CPU cores available
+ 2. Set the parallel pool according to the user settings
+ 
+ The two scripts below has different functionality as described. Choose one in your convenience!
 
 ## File startParallelAndSetCores.m
 <pre><code> function startParallelAndSetCores(nCPUCores)
